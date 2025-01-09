@@ -1,0 +1,93 @@
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 0 30px rgba(0,0,0,0.15);
+}
+
+.form-control, .btn, select {
+    border-radius: 10px;
+    padding: 0.8rem;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #2196F3, #1976D2);
+    border: none;
+    padding: 12px 30px;
+    font-weight: 600;
+    transition: transform 0.2s;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(33,150,243,0.3);
+}
+
+.summary-box {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    margin-top: 2rem;
+    transition: all 0.3s ease;
+}
+
+.summary-box:hover {
+    box-shadow: 0 0 30px rgba(0,0,0,0.15);
+}
+
+.audio-controls {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+}
+
+audio {
+    border-radius: 30px;
+}
+
+.alert {
+    border-radius: 10px;
+    border: none;
+}
+
+h1 {
+    color: #1976D2;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.file-upload-wrapper {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.custom-file-label {
+    background: #f8f9fa;
+    border: 2px dashed #dee2e6;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-file-label:hover {
+    border-color: #2196F3;
+}

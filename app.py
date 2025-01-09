@@ -71,7 +71,7 @@ def preprocess_text(text):
     return text.strip()
 
 def summarize_text(text):
-    # Dil tespiti
+    # Daha iyi dil tespiti
     try:
         lang = detect(text)
         if lang not in ['tr', 'en']:
@@ -137,7 +137,7 @@ def summarize_text(text):
         summary_ratio = 0.50
 
     # Cümle sayısını belirle
-    target_sentences = min(max(int(len(sentences) * summary_ratio), 10), 50)
+    target_sentences = min(max(int(len(sentences) * summary_ratio), 5), 50)
 
     # Özeti oluştur
     summary_sentences = sorted(sentence_scores.items(), 
